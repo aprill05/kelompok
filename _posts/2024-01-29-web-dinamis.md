@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "web dinamis"
-date:   2024-01-29 13:28:55 +0800
+date:   2024-01-30 13:28:55 +0800
 categories: jekyll update
 ---
 
