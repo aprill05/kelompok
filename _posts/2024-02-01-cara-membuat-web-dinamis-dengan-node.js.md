@@ -28,8 +28,7 @@ npm install express
 Buat Berkas App.js:
 Buat berkas app.js sebagai titik masuk (entry point) aplikasi Anda. Gunakan teks editor untuk membuat berkas ini.
 
-javascript
-Copy code
+```javascript
 const express = require('express');
 const app = express();
 const port = 3000;
@@ -41,6 +40,8 @@ app.get('/', (req, res) => {
 app.listen(port, () => {
   console.log(`Aplikasi berjalan di http://localhost:${port}`);
 });
+
+```
 Dalam contoh ini, aplikasi memiliki satu route (beranda) yang mengirimkan respons dengan pesan sederhana.
 
 Jalankan Aplikasi:
