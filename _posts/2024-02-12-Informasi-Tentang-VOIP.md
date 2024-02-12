@@ -3,7 +3,8 @@
 VOIP, singkatan dari Voice over Internet Protocol, adalah teknologi yang memungkinkan pengguna untuk melakukan panggilan suara melaluijaringan internet. 
 Sebagai pengganti infrastruktur telepon tradisional berbasis sirkuit, VOIP mengirimkan data suara sebagai paket data melalui internet. 
 
-2.apa tujuan dari voip/
+2.apa tujuan dari voip?
+
   Tujuan utama dari Voice over Internet Protocol (VoIP) adalah untuk menyediakan alternatif yang lebih efisien dan fleksibel dalam melakukan komunikasi suara daripada infrastruktur telepon tradisional.
 Berikut adalah beberapa tujuan kunci dari VoIP:
 
@@ -20,6 +21,7 @@ Berikut adalah beberapa tujuan kunci dari VoIP:
 * Kualitas Layanan yang Ditingkatkan: Meskipun kualitas layanan VoIP mungkin awalnya memiliki tantangan, terutama terkait dengan koneksi internet yang tidak stabil atau lambat, teknologi VoIP terus berkembang untuk meningkatkan kualitas panggilan.
 
 3. fungsi voip?
+   
    Voice over Internet Protocol (VoIP) memiliki berbagai fungsi yang memungkinkan pengguna untuk melakukan komunikasi suara melalui internet.
     Berikut adalah beberapa fungsi utama dari VoIP:
    
@@ -33,6 +35,7 @@ Berikut adalah beberapa tujuan kunci dari VoIP:
 * Keamanan
 
 4.Sebutkan kelebihan dan kekurangan?
+
 Kelebihan VoIP:
 
 * Biaya Rendah
@@ -49,6 +52,7 @@ Kekurangan VoIP:
 * Integrasi dengan Sistem Telepon yang Ada
 
 5.Cara kerja voip?
+
 Cara kerja Voice over Internet Protocol (VoIP) melibatkan konversi suara menjadi data digital, pengiriman data tersebut melalui jaringan internet, dan kemudian pengubahan kembali data digital tersebut menjadi suara di penerima.
 Berikut adalah langkah-langkah detail tentang cara kerja VoIP:
 
