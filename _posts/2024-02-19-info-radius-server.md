@@ -57,3 +57,40 @@ Selanjutnya, Anda dapat melakukan konfigurasi lebih lanjut sesuai dengan kebutuh
 
 
 
+**info lainnya:**
+
+Untuk menginstal dan mengkonfigurasi perangkat MikroTik sebagai server RADIUS di sistem Linux, Anda perlu menggunakan RouterOS MikroTik yang memiliki fitur RADIUS Server. Saat ini, RouterOS MikroTik tidak didukung pada sistem operasi Linux standar. Namun, Anda bisa menggunakan MikroTik sebagai server RADIUS di jaringan Anda.
+
+Berikut adalah langkah-langkah umum untuk mengkonfigurasi MikroTik sebagai server RADIUS di jaringan Anda:
+
+1. Persiapkan Perangkat MikroTik:
+
+Pastikan Anda memiliki perangkat MikroTik yang mendukung fitur RADIUS Server. Ini biasanya termasuk router seri RouterBOARD atau perangkat MikroTik lainnya yang menjalankan RouterOS.
+
+2. Masuk ke Perangkat MikroTik:
+
+Gunakan antarmuka pengelolaan MikroTik, seperti Winbox atau antarmuka web (dengan mengakses alamat IP perangkat), untuk masuk ke perangkat MikroTik menggunakan kredensial admin.
+
+3. Aktifkan Layanan RADIUS:
+
+Di antarmuka MikroTik, Anda perlu mengaktifkan layanan RADIUS. Anda bisa melakukannya melalui Winbox atau CLI (Command Line Interface). Misalnya, di CLI, Anda bisa menggunakan perintah berikut:
+
+bash
+Copy code
+/radius add service=login,address=192.168.1.100 secret=myradiussecret
+Di sini, address adalah alamat IP dari server RADIUS Anda dan secret adalah kata sandi yang digunakan untuk mengamankan koneksi antara perangkat MikroTik dan server RADIUS.
+
+4. Konfigurasi Pengguna RADIUS:
+
+   Setelah RADIUS diaktifkan, Anda perlu menambahkan pengguna RADIUS. Ini bisa dilakukan langsung di antarmuka MikroTik. Masuk ke menu "PPP" atau "User" dan tambahkan pengguna baru dengan jenis otentikasi RADIUS.
+
+5. Uji Koneksi dan Otentikasi:
+
+  Setelah konfigurasi selesai, uji koneksi dan otentikasi pengguna menggunakan kredensial yang telah Anda atur.
+
+6. Monitor dan Atur Logging:
+
+  Penting untuk memantau dan melacak aktivitas RADIUS Anda. Anda dapat melakukannya melalui antarmuka MikroTik, baik itu melalui Winbox atau melalui CLI.
+
+Itulah langkah-langkah umum untuk mengkonfigurasi perangkat MikroTik sebagai server RADIUS.
+Pastikan untuk mengacu pada dokumentasi resmi MikroTik dan memperhatikan kebutuhan jaringan Anda untuk konfigurasi yang tepat.
