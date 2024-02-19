@@ -65,4 +65,15 @@ Perintah di atas akan menyisipkan lima baris data ke dalam tabel biodata_siswa. 
 Untuk melihat hasilnya, Anda dapat menggunakan perintah SELECT untuk mengambil data dari tabel biodata_siswa. Berikut adalah contoh perintah untuk melihat semua data dalam tabel:
 SELECT * FROM biodata_siswa;
 
+BUKTI PRAKTEK
+
+![sc mariadb santi](https://github.com/aprill05/kelompok/assets/156058005/0e34a515-e8ce-456d-a0a8-4bc89ed7b413)
+
+
+
+
+
+
+
+
 SELESAI.............................................................!
