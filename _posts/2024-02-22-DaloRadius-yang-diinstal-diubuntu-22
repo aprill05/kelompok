@@ -68,3 +68,23 @@ sudo systemctl restart apache2
 
 10. Akses Daloradius: Buka browser web dan akses Daloradius di alamat http://localhost/daloradius. 
    Masuk menggunakan username dan password default (biasanya administrator dan radius).
+
+
+
+
+code install freeradius
+
+1. sudo apt update
+   sudo apt upgrade
+
+2. sudo apt -y install apache2
+
+3. sudo systemctl enable --now apache2
+
+
+4. sudo ufw allow WWW
+
+
+5. 
+
+
