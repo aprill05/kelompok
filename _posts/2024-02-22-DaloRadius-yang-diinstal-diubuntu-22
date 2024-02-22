@@ -71,7 +71,6 @@ sudo systemctl restart apache2
 
 
 
-
 code install freeradius
 
 1. sudo apt update
@@ -95,7 +94,6 @@ code install freeradius
 9. sudo mysql_secure_installation
 
 10. Enter current password for root (enter for none):
-
 
 
 
